@@ -1,0 +1,18 @@
+<%@page contentType="text/html" pageEncoding="UTF-8"%>
+<!DOCTYPE html>
+<html>
+<head>
+<title>Exemplo de estrutura de laço - for</title>
+</head>
+<body>
+<%
+for (int t = 1; t <= 10; t++) {
+out.println("Tabuada do: " + t + "<br>");
+for (int n = 1; n <= 10; n++) {
+out.println(t + " x " + n + " = " + (t * n) + "<br>");
+  }
+out.println("<hr>");
+  }
+ %>
+</body>
+</html>
