@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8" />
+        <title>Exemplo de Estrutura Condicional</title>
+    </head>
+   <body>
+<div id="pag">
+            <h3>Cálculo de IMC em JSP</h3>
+            <div id="div1">
+               <p>IMC é o Índice de Massa Corporal.</p>
+                <p>Calcula-se assim: IMC = (peso / altura * altura).</p>
+                <form name="formIndex" action=index1_resp.jsp method="get" target="result">
+                    Peso:   <input type="text" name="peso" maxlength="5"><br>
+                    Altura: <input type="text" name="altura" maxlength="5"><br>
+                    <input type="submit" name="enviar" value="Calcula IMC">
+                </form>
+           </div>
+            <form action="newjsp2.jsp" method="get" target="result2">
+                Mostrar Tabuada agora: <input type="text" name="tabuada" maxlength="5">
+                <input type="submit" name="enviar" value="Tabuada">
+            </form>
+            <div id="div2">
+             <iframe name="result" width="400" height="200" frameborder="0">
+             </iframe>
+           </div>
+            <div id="div3">
+            <iframe name="result2" width="400" height="200" frameborder="0">
+             </iframe>
+            </div>
+        </div>
+ 
+</body>
+</html>
